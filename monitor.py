@@ -1,11 +1,9 @@
-import time
 import hashlib
 from urllib.request import urlopen, Request
 import os
-import smtplib
-from email.message import EmailMessage
 from smtplib import SMTP
 from dotenv import load_dotenv
+
 load_dotenv()
 
 # /*-----------Variables----------*/
